@@ -1,0 +1,10 @@
+build:
+  gpu: true
+  cuda: "11.6"
+  python_version: "3.6"
+  python_packages:
+    - "torch==1.2"
+    - "numpy==1.19.1"
+    - "opencv==4.5"
+
+predict: "predict.py:Predictor"
