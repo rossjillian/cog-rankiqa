@@ -6,4 +6,4 @@ First, download the pre-trained weights from [Google Drive](https://drive.google
 
 Then, you can run predictions:
 
-cog predict -i image=@test.png
+`cog predict -i image=@test.png`
