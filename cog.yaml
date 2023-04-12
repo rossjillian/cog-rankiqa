@@ -1,10 +1,13 @@
 build:
   gpu: true
+  system_packages:
+    - "python3-opencv"
   cuda: "11.6"
-  python_version: "3.6"
+  python_version: "3.8"
   python_packages:
-    - "torch==1.2"
+    - "torch==1.13.1"
     - "numpy==1.19.1"
-    - "opencv==4.5"
+    - "opencv-contrib-python==4.6.0.66"
+    - "torchvision==0.14.1"
 
 predict: "predict.py:Predictor"
